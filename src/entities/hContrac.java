@@ -42,5 +42,7 @@ public class hContrac {
 		this.h = h;
 	}
 
-	
+	public double totalValue() {
+		return valueperH * h;
+	}
 }
